@@ -13,7 +13,7 @@
 
         /* Navbar */
         .navbar{
-            background-color: transparent;
+            background-color: #242526;
         }
         
         .navbar-brand{
@@ -29,7 +29,7 @@
         .navbar a, b{
             color: #ffffff;
         }
-
+          
         .carousel-item{
             height : 100vh;
         }
@@ -41,8 +41,7 @@
             top: 0;
         }
 
-        
-        h1{
+        .carousel-item h1{
           position: absolute;
           z-index: 2;
           color: #ffffff;
@@ -53,104 +52,185 @@
         }
 
         /* Profile */
-        .profile{
-          padding: 2%;
+        .prof{
+          padding-top: 4%;
+          padding-left: 7%;
+          padding-right: 7%;
+        }
+
+        .ft h2{
+          font-size: large;
+          font-weight: bolder;
+          color: white;
+          background-color: #3A3B3C;
+          padding-bottom: 1%;
+          padding-top: 1%;
+          padding-left: 2%;
+          margin-right: 81.5%;
+          margin-top: 2%;
         }
         
-        .profile h2{
-          text-align: center;
+        .ft img{
+          height: 70vh;          
+          padding: 10px;
+          border: none;
+        }
+
+        .ft data img{
+          height: 10vh;
+        }
+
+        .ft h1{
+          font-weight: bolder;
+          margin-top: 3%;
+        }
+
+        /* Location */
+        .locat{
+          padding-top: 4%;
+          padding-left: 7%;
+          padding-right: 7%;
+        }
+
+        .loc .loc1 h1{
+          font-size: larger;
+          font-weight: bolder;
+          color: white;
+          background-color: #3A3B3C;
+          margin-left: 75%;
+          padding-right: 2%;
+          padding-top: 1%;
           padding-bottom: 1%;
+          margin-bottom: 5%;
+        }
+
+        .loc .loc1 h2{
           font-weight: bolder;
         }
-        .profile img{
-          height: 80vh;          
-          background-color: #009dc4;
-          padding: 5%;
+
+        .loc .loc1 p{
+          padding-left: 60%;
+        }
+
+        .loc .loc1 h3{
+          margin-top: 16%;
         }
 
         </style>
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand"><b>Raka Ikbar Setyadireza</b></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Location</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+    <section id="home">
+      <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand"><b>Raka Ikbar Setyadireza</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#location">Location</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-    </nav>
+      </nav>
+    </section>
 
     <!-- Home -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h1>W E L C O M E</h1>
-            <img src="3.jpg" class="d-block w-100" alt="...">
+    <section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-item">
-            <h1>T O</h1>
-            <img src="2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>W E L C O M E</h1>
+              <img src="3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <h1>T O</h1>
+              <img src="2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <h1>M Y P R O F I L E</h1>
+              <img src="1.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div class="carousel-item">
-            <h1>M Y P R O F I L E</h1>
-            <img src="1.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </section>
 
     <!-- Profile -->
-    <div class="profile">
-      <h2>P R O F I L E</h2>
-      <img src="profile.jpg" class="img-thumbnail" alt="...">
-    </div>
+    <section id="profile">
+      <div class="container-fluid prof">
+        <div class="ft shadow p-3 mb-5 bg-body rounded">
+          <class class="row">
+            <div class="col-md-4">
+              <img src="profile.jpg" class="img-thumbnail" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="text-start">
+                <div class="data">
+                  <h2>P R O F I L E</h2>
+                  <h1>Raka Ikbar Setyadireza</h1>
+                  <p>Mahasiswa Universitas Suryakancana, Jurusan Teknik Informatika, Angakatan 2020, memasuki tahun ke-3 semester 5. Seorang pemula dalam Pemrograman Web yang suatu hari dapat dikuasai layaknya Programmer Website. Kegiatan yang dilakukan disaat free time dipakai untuk belajar bahasa asing karena waktu itu sangat berharga jangan di sia-siakan.</p>
+                  <img src="signature.png" alt="" style="height: 17vh; margin-top: 8%; margin-left: 70%;">
+                </div>
+              </div>
+            </div>
+          </class>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location -->
+    <section id="location">
+      <div class="container-fluid locat">
+        <div class="loc shadow p-3 mb-5 bg-body rounded">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="text-end loc1">
+                <h1>L O C A T I O N</h1>
+                <h2>Ciwalen, Cianjur</h2>
+                <p>KP.PASANTREN, Rt04 Rw11, Desa Ciwalen, Kec.Warungkondang.</p>
+                <h3>43621</h3>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="text-end loc2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31690.228908155656!2d107.08061537813546!3d-6.857172023964748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e684df900460031%3A0xafc6a19633cc1a24!2sCiwalen%2C%20Warungkondang%2C%20Cianjur%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1666446048996!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script>
-      $(document).ready(function(){
-        $(window).scroll(function(){
-  	      var scroll = $(window).scrollTop();
-	        if (scroll > 10) {
-	          $(".navbar").css("background" , "blue");
-	        }else{
-		        $(".navbar").css("background" , "transparent");  	
-	        }
-        })
-      })
-    </script>
   </body>
 </html>
